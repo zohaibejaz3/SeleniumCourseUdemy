@@ -12,6 +12,7 @@ driver.implicitly_wait(5)
 user_input = "Selenium WebDriver With Java"
 
 to_find = "//h4[@class='dynamic-heading' and contains(text(),'{0}')]"
+# to_find = f"//h4[@class='dynamic-heading' and contains(text(),'{user_input}')]"
 
 search_box = driver.find_element(By.XPATH, "//input[@id='search']")
 search_box.send_keys(user_input)
@@ -19,6 +20,7 @@ search_box.send_keys('\n')
 sleep(5)
 
 course_XPATH = to_find.format(user_input)
+# course_XPATH = to_find
 
 try:
     course_element = driver.find_element(By.XPATH, course_XPATH)
