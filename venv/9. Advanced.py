@@ -33,7 +33,7 @@ driver.execute_script("window.scrollBy(0, -1000);")
 
 # Selenium way
 time.sleep(2)
-location = mouse_hover_element.location_once_scrolled_into_view
+location = mouse_hover_element.location_once_scrolled_into_view # location from top-left corner
 print(f"Location: {location}")
 
 time.sleep(2)
