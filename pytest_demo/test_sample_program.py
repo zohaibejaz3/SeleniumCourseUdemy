@@ -25,4 +25,4 @@ class TestSampleProgram:
 
 # use pytest-html module to generate reports.
 # COMMAND: pytest [test.py] -v --html=[path and/or name].html
-# NOTE: using the -s argument gives a "No logs captured" message in the report which is bad, so don't use it!
+# NOTE: using the -s argument gives a "No logs camptured" message in the report which is bad, so dont use it!
