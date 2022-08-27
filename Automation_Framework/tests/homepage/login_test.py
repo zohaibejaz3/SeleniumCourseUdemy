@@ -1,4 +1,6 @@
-import time
+# Run this file using the "pytest tests/homepage/login_test.py" command
+# If you dont want to mess around with PYTHONPATH variable:
+# abuse how py.test loads conftest files: put an empty conftest.py in the project's top-level directory.
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
